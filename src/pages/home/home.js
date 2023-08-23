@@ -1,5 +1,6 @@
 import {React} from 'react';
 import "./home.css";
+import NavBar from '../../components/navbar/navbar';
 
 function Home(){
 
@@ -7,7 +8,7 @@ function Home(){
     return(
         <div className="main">
 
-        HomePage
+      <NavBar />
 
         </div>
     );
