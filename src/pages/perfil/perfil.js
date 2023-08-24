@@ -9,23 +9,50 @@ function Perfil(){
     return(
         <div className="main">
 
-      <NavBar />
+     
 
-      <form onSubmit={console.log("Contraseña actualizada")}></form>
+      <form onSubmit={console.log("Contraseña actualizada")}>
+
+      
       <div className='div-form'>
         <label>Email</label>
         <div>email@gamail.com</div>
+        </div>
 
 
-      </div>
       <div className='div-form'>
+      <label>Nombre</label>
+      <div>Juan Perez</div>
+      </div>
 
-      <label>Email</label>
+      <div className='div-form'>
+      <label>Nombre</label>
+      <input type='password' placeholder='Ingrese contraseña Actual' /> 
+      </div>
 
-      <input className='input-form'/>
+      <div className='div-form'>
+      <label>Nombre</label>
+      <input type='password' placeholder='Ingrese mueva contraseña' /> 
+      </div>
 
+      <div className='div-form'>
+      <label>Nombre</label>
+      <input type='password' placeholder='Confirmar mueva contraseña' /> 
 
       </div>
+
+      <button className='button-form' type='submit'>
+
+        guabdar 
+        
+      </button>
+
+      <div className='div-form'>
+      <label>Nombre</label>
+      <div>Juan Perez</div>
+      </div>
+      
+      </form>
 
         </div>
     );

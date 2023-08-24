@@ -18,7 +18,7 @@ function AppWrapper(){
       <Route path="/register" element={<Register />} />
       <Route path="/perfil" element={<Perfil />} />
       <Route path="/404" element={<notFound/>} />
-      <Route path="*" element={NotFound} />
+      <Route path="#" element={<NotFound />} />
 
     </Routes>
   )
@@ -42,7 +42,7 @@ function App() {
     
 
     <div className="App">
-     <Home />
+     
     </div>
     </>
   );
