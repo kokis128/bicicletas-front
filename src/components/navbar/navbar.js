@@ -11,7 +11,7 @@ function NavBar(){
         <div className="navbar-size">
             <div className='navbar-left'>
 
-          <Link to="/#">  <h3 className='nav-h3'>bicicletas</h3></Link>
+          <Link to="/home">  <h3 className='nav-h3'>bicicletas</h3></Link>
           <Link to="/#"> <h3 className='nav-h3'>Alquileres</h3></Link>
             </div>
             <div className='navbar-center'></div>

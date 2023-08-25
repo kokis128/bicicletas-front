@@ -1,0 +1,30 @@
+.bic-disp-container{
+
+
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    color:black;
+    position: absolute;
+
+
+}
+
+.bici-disp-button{
+position: relative;
+width: 100%;
+height: 4vh;
+background-color: #ffffff;
+color: black;
+
+
+}
+
+.bici-disp-button:hover{
+   
+ 
+    background-color: #e0e0e0 ;
+  
+    
+    
+    }

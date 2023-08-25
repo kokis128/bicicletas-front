@@ -1,0 +1,30 @@
+
+
+.bicicletas-disp-size{
+
+width: 100%;
+height: 70vh;
+background-color: pink;
+margin:0;
+padding: 0;
+
+
+}
+
+.bicicletas-disp-container{
+
+    width:80%;
+    height: 90%;
+    background-color: lightblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+
+
+
+
+
+
+}
