@@ -13,6 +13,8 @@ function Perfil(){
 
           <div className="main">
 
+            <h1 className='h1-perfil'>PERFIL</h1>
+
           <form className='form-size' onSubmit={console.log("Contraseña actualizada")}>
       <div className='div-form'>
         <label>Email</label>

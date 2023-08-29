@@ -14,8 +14,7 @@ function Home(){
 { title:"BICICLETA 6",descripcion:"modelo 2023" },
 { title:"BICICLETA 7",descripcion:"modelo 2023" },
 { title:"BICICLETA 8",descripcion:"modelo 2023" },
-{ title:"BICICLETA 9",descripcion:"modelo 2023" },
-{ title:"BICICLETA 10",descripcion:"modelo 2023" },
+
 ];
 
 
