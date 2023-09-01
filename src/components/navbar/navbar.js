@@ -18,7 +18,7 @@ function NavBar(){
             <div className='navbar-right'>
             <Link to="/register"><h3 className='nav-h3'>Registrarse</h3></Link>   
             <Link to="/perfil"><h3 className='nav-h3'>Perfil</h3></Link>
-            <Link to="/#"><h3 className='nav-h3'>Salir</h3></Link>
+            <Link to="/register"><h3 className='nav-h3'>Registrese</h3></Link>
             </div>
             
            
