@@ -7,9 +7,13 @@ import Login from './pages/login/login';
 import Register from './pages/registro/register';
 import NotFound from './pages/notFound/notFound';
 import Perfil from './pages/perfil/perfil';
+import NavBar from './components/navbar/navbar';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function AppWrapper(){
   return(
+    <>
+    <NavBar />
     <Routes>
 
       <Route path="/" element={<Home/>} />
@@ -21,6 +25,7 @@ function AppWrapper(){
       <Route path="#" element={<NotFound />} />
 
     </Routes>
+    </>
   )
 }
 

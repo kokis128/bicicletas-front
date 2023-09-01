@@ -1,6 +1,6 @@
 import {React} from 'react';
 import "./perfil.css";
-import NavBar from '../../components/navbar/navbar';
+
 
 
 function Perfil(){
@@ -8,7 +8,7 @@ function Perfil(){
 
     return(
       <>
-      <NavBar />
+    
         <div>
 
           <div className="main">
