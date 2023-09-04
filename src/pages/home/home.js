@@ -6,7 +6,6 @@ import BicicletasDisponibles from '../../components/bicicletasDisponibeles/bicic
 function Home(){
 
   const ITEMS=[
-<<<<<<< HEAD
 { title:"BICICLETA 1", descripcion:"modelo 2023" },
 { title:"BICICLETA 2", descripcion:"modelo 2023" },
 { title:"BICICLETA 3", descripcion:"modelo 2023" },
@@ -17,17 +16,6 @@ function Home(){
 { title:"BICICLETA 8", descripcion:"modelo 2023" },
 { title:"BICICLETA 9", descripcion:"modelo 2023" },
 { title:"BICICLETA 10", descripcion:"modelo 2023" },
-=======
-{ title:"BICICLETA 1",descripcion:"modelo 2023" },
-{ title:"BICICLETA 2",descripcion:"modelo 2023" },
-{ title:"BICICLETA 3",descripcion:"modelo 2023" },
-{ title:"BICICLETA 4",descripcion:"modelo 2023" },
-{ title:"BICICLETA 5",descripcion:"modelo 2023" },
-{ title:"BICICLETA 6",descripcion:"modelo 2023" },
-{ title:"BICICLETA 7",descripcion:"modelo 2023" },
-{ title:"BICICLETA 8",descripcion:"modelo 2023" },
-
->>>>>>> 2ba50bd4109cbd838cf1dd86cc68bdd375a4db16
 ];
 
 
