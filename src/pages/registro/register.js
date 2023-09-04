@@ -15,7 +15,6 @@ function Register({ setIsLogged }) {
 	const [errores, setErrores] = useState("");
 	const [loading, setLoading] = useState(false);
 
-<<<<<<< HEAD
 	const navigate = useNavigate();
 
 	const registroSatisfactorio = () =>
@@ -119,60 +118,6 @@ function Register({ setIsLogged }) {
 			</div>
 		</div>
 	);
-=======
-    return(
-      <>
-      <NavBar />
-        <div>
-
-          <div className="main">
-
-          <form className='form-size' onSubmit={console.log("Contraseña actualizada")}>
-      <div className='div-form'>
-        <label>Email</label>
-        <input className='input-form'  type="email" placeholder="ingrese su email"/>
-      
-      </div>
-
-      <div className='div-form'>
-      <label className='label-form'>Nombre</label>
-   
-      <input className='input-form'  type="text" placeholder="ingrese su nombre"/>
-      </div>
-
-      <div className='div-form'>
-     
-      <input className='input-form'  type="password" placeholder="contraseña"/>
-     
-      <input className='input-form'  type="password" placeholder="confirmar nueva contraseña"/>
-      </div>
-
-     
-      <button className='button-form' type='submit'>
-        Crear usuario
-      </button>
-
-      </form>
-
-
-
-
-
-
-          </div>
-
-      
-
-     
-
-
-      
-
-        </div>
-
-        </>
-    );
->>>>>>> 2ba50bd4109cbd838cf1dd86cc68bdd375a4db16
 }
 
 export default Register;    
